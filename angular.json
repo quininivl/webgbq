@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "webgabecalidad"
+    }
+  },
+  "defaultProject": "webgabecalidad",
+  "cli": {
+    "analytics": false
+  }
 }

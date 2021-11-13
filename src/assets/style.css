@@ -2998,9 +2998,11 @@ html[xmlns] .slider-wrap {
 	#logo img {
 		-webkit-transition: height .4s ease, padding .4s ease, margin .4s ease, opacity .3s ease;
 		transition: height .4s ease, padding .4s ease, margin .4s ease, opacity .3s ease;
+		
 	}
 
-	#logo img { max-height: 100%; }
+	#logo img { max-height: 100%;
+		
 
 	.sub-menu-container,
 	.mega-menu-content {
@@ -3138,7 +3140,7 @@ html[xmlns] .slider-wrap {
 }
 
 .header-size-md #header-wrap #logo img {
-	height: 80px;
+	height: 60px;
 }
 
 .header-size-lg #header-wrap #logo img {
@@ -9750,14 +9752,30 @@ body:not(.device-touch) .button.button-full strong {
 .media-box.fbox-bg .fbox-content {
 	padding: 1.5rem;
 	background-color: #FFF;
-	border: 1px solid #E5E5E5;
-	border-top: 0;
-	border-radius: 0 0 5px 5px;
+	
 }
 
-.media-box.fbox-bg .fbox-media img { border-radius: 5px 5px 0 0; }
+/*.media-box.fbox-bg .fbox-media img {
+    border-radius: 55px 85px 0 0;
+    border: 1px solid white;
+    box-shadow: 4px 4px 12px #00000045;
+}*/
 
-
+.media-box.fbox-bg .fbox-media.card1 img{
+	border-radius: 45px 85px 45px 85px;
+    border: 1px solid white;
+    box-shadow: 4px 4px 12px #00000045;
+}
+.media-box.fbox-bg .fbox-media.card3 img{
+	border-radius: 85px 45px 85px 45px;
+    border: 1px solid white;
+    box-shadow: 4px 4px 12px #00000045;
+}
+.media-box.fbox-bg .fbox-media.card2 img{
+	border-radius: 85px 85px 85px 85px;
+    border: 1px solid white;
+    box-shadow: 4px 4px 12px #00000045;
+}
 /* ----------------------------------------------------------------
 	Flipbox
 -----------------------------------------------------------------*/
