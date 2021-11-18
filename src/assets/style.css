@@ -6351,7 +6351,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 
 #content {
 	position: relative;
-	background-color: #FFF;
+	background-color:transparent;
 }
 
 #content p { line-height: 1.8; }
@@ -9237,6 +9237,9 @@ body:not(.device-touch) .button.button-full strong {
 	margin-left: -0.75rem;
 	margin-right: -0.75rem;
 }
+.bordered-box{
+	border: 5px solid white;
+}
 
 .feature-box:first-child { margin-top: 0; }
 
@@ -9285,13 +9288,13 @@ body:not(.device-touch) .button.button-full strong {
 	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 0;
-	color: #333;
+	color: white;
 }
 
 .fbox-content p {
 	margin-top: 0.5rem;
 	margin-bottom: 0px;
-	color: #999;
+	color: white;
 }
 
 .fbox-content .before-heading {
@@ -9545,7 +9548,7 @@ body:not(.device-touch) .button.button-full strong {
 .fbox-content h3 span.subtitle {
 	display: block;
 	margin-top: 5px;
-	color: #444;
+	color: white;
 	font-weight: 300;
 	text-transform: none;
 }
@@ -9751,7 +9754,7 @@ body:not(.device-touch) .button.button-full strong {
 
 .media-box.fbox-bg .fbox-content {
 	padding: 1.5rem;
-	background-color: #FFF;
+	background-color: transparent;
 	
 }
 
