@@ -181,7 +181,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #444;
+	color: white;
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
@@ -9257,6 +9257,7 @@ body:not(.device-touch) .button.button-full strong {
 	width: 100%;
 	height: 100%;
 	color: #FFF;
+	
 }
 
 .fbox-icon i,
@@ -9549,7 +9550,6 @@ body:not(.device-touch) .button.button-full strong {
 	display: block;
 	margin-top: 5px;
 	color: white;
-	font-weight: 300;
 	text-transform: none;
 }
 
@@ -9570,6 +9570,8 @@ body:not(.device-touch) .button.button-full strong {
 .fbox-center.fbox-italic p {
 	font-style: italic;
 	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+
 }
 
 
@@ -9733,6 +9735,7 @@ body:not(.device-touch) .button.button-full strong {
 	margin-right: 0;
 	-ms-flex-direction: column;
 	flex-direction: column;
+	border-radius: 45px 45px 0px 0px;
 }
 
 .media-box .fbox-media { margin: 0 0 1.5rem; }
@@ -9744,8 +9747,13 @@ body:not(.device-touch) .button.button-full strong {
 	display: block;
 	width: 100%;
 	height: auto;
-}
+	border-radius: 45px 45px 0px 0px;
 
+}
+.media-box .fbox-media.borde img{
+	border-bottom: 5px solid white !important;
+
+}
 .media-box .fbox-media iframe { display: block; }
 
 .media-box p { margin-top: 1rem; }
@@ -9754,7 +9762,8 @@ body:not(.device-touch) .button.button-full strong {
 
 .media-box.fbox-bg .fbox-content {
 	padding: 1.5rem;
-	background-color: transparent;
+	background-color: rgba(255, 0, 0, 0.05);
+	
 	
 }
 
@@ -12931,10 +12940,10 @@ h3.titular-title { font-size: 2rem; }
 .emphasis-title h1,
 .emphasis-title h2 {
 	margin-bottom: 0;
-	font-weight: 700;
+	font-weight: 900;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: #333;
+	color: white;
 }
 
 .emphasis-title h1,
@@ -12948,7 +12957,9 @@ h3.titular-title { font-size: 2rem; }
 
 .heading-block h2 { font-size: 30px; }
 
-.heading-block h3 { font-size: 1.75rem; }
+.heading-block h3 { font-size: 64px; 
+	font-family: 'Lato', sans-serif;
+}
 
 .heading-block h4 {
 	font-size: 1.25rem;
@@ -12959,7 +12970,7 @@ h3.titular-title { font-size: 2rem; }
 	display: block;
 	margin-top: 10px;
 	font-weight: 300;
-	color: #777;
+	color: white;
 }
 
 .heading-block .before-heading { margin-bottom: 7px; }
