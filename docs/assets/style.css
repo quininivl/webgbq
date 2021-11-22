@@ -12671,10 +12671,10 @@ blockquote.float-right {
 	font-size: 15px;
 	line-height: 1.42857143;
 	color: #555555;
-	background-color: #ffffff;
+	background-color: black;
 	background-image: none;
 	border: 2px solid #DDD;
-	border-radius: 0 !important;
+	border-radius: 10px !important;
 	-webkit-transition: border-color ease-in-out .15s;
 	-o-transition: border-color ease-in-out .15s;
 	transition: border-color ease-in-out .15s;
