@@ -35,7 +35,7 @@ if( isset( $_GET[ 'color' ] ) AND $_GET[ 'color' ] != '' ) {
 }
 
 if( !$color OR !checkhexcolor( $color ) ) {
-	$color = "#1ABC9C";
+	$color = "#ffffff";
 }
 
 ?>
@@ -107,7 +107,7 @@ h6 > span:not(.nocolor):not(.badge),
 .dark .product-title h3 a:hover,
 .dark .single-product .product-title h2 a:hover,
 .dark .product-price ins,
-.dark .tab-nav-lg li.ui-tabs-active a { color: <?php echo $color; ?>; }
+.dark .tab-nav-lg li.ui-tabs-active a { color:#ffffff }
 
 .color,
 .h-text-color:hover,
