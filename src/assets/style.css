@@ -150,6 +150,7 @@ body {
 	line-height: 1.5;
 	color: #555;
 	font-family: 'Lato', sans-serif;
+	
 }
 
 a {
@@ -9779,18 +9780,18 @@ body:not(.device-touch) .button.button-full strong {
 }*/
 
 .media-box.fbox-bg .fbox-media.card1 img{
-	border-radius: 45px 85px 45px 85px;
-    border: 1px solid white;
+	border-radius: 40px 80px 40px 80px;
+    border: 2px solid white;
     box-shadow: 4px 4px 12px #00000045;
 }
 .media-box.fbox-bg .fbox-media.card3 img{
-	border-radius: 85px 45px 85px 45px;
-    border: 1px solid white;
+	border-radius: 80px 40px 80px 40px;
+    border: 2px solid white;
     box-shadow: 4px 4px 12px #00000045;
 }
 .media-box.fbox-bg .fbox-media.card2 img{
-	border-radius: 85px 85px 85px 85px;
-    border: 1px solid white;
+	border-radius: 80px 80px 80px 80px;
+    border: 2px solid white;
     box-shadow: 4px 4px 12px #00000045;
 }
 /* ----------------------------------------------------------------

@@ -16,3 +16,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@font-face {
+    font-family: goodtime;
+    src: url(assets/Font/GOODTIME.ttf) format("opentype");
+  }
