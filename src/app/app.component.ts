@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { MailService } from './services/mail.service';
+import {FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
+
 
 @Component({
   selector: 'app-root',
@@ -9,8 +11,20 @@ import { MailService } from './services/mail.service';
 })
 export class AppComponent {
   title = 'webdempo';
+  public contactForm = this.fb.group({
 
-  constructor(private _mailService: MailService
+    msg:' ',
+    email:' ',
+    nombre:' ',
+    tlfno:' ',
+    empresa:' ',
+ }, {
+ }
+
+ );
+
+  constructor(private _mailService: MailService,
+    private fb: FormBuilder
     ) { }
 
 
@@ -18,9 +32,7 @@ export class AppComponent {
    
     this._mailService.contact(msg,email, nombre, tlfno, empresa).subscribe(
       response => {
-        console.log(response);
         if(response.status == 'success'){
-         console.log(response);
         }
       },
       error =>{
@@ -30,4 +42,17 @@ export class AppComponent {
 
 
   }
+
+  send(){
+    console.log("ENVIAR");
+    console.log(this.contactForm.controls['email'].value.toString().trim());
+    this.contact(
+      this.contactForm.controls['msg'].value.toString().trim(),
+      this.contactForm.controls['email'].value.toString().trim(),
+      this.contactForm.controls['nombre'].value.toString().trim(),
+      this.contactForm.controls['tlfno'].value.toString().trim(),
+      this.contactForm.controls['empresa'].value.toString().trim())
+  }
+
+  
 }

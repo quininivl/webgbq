@@ -20,7 +20,7 @@ export class MailService {
     let params = 'json='+json;
     let headers = new HttpHeaders().set('Content-Type','application/x-www-form-urlencoded');
     
-    return this._http.post('url',params, {headers:headers});
+    return this._http.post('https://pruebas.apialumbrado.dempo.es/api/email/send',params, {headers:headers});
 
   }
 }

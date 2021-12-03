@@ -16,6 +16,8 @@ import { Grid1Component } from './shared/grid1/grid1.component';
 import { Content1Component } from './shared/content1/content1.component';
 import { RouterModule, ROUTES, Routes } from '@angular/router';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +38,7 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
     AppRoutingModule,
     RouterModule,
     HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
