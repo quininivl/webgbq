@@ -41,7 +41,7 @@
 <body class="stretched">
 		<!-- Document Wrapper
 	============================================= -->
-	<div id="wrapper" class="clearfix" style=" background-size: cover; background-image: url('assets/Fondo.jpg')">
+	<div id="wrapper" class="clearfix" style="background-size:contain; background-image: url('assets/Fondo.jpg')">
 
 		<!-- Header
 		============================================= -->
@@ -125,13 +125,13 @@
 		jQuery(window).on( 'pluginCarouselReady', function(){
 			$('#oc-features').owlCarousel({
 				items: 1,
-				margin: 90,
+				margin: 60,
 			    nav: true,
 			    navText: ['<img src="assets/left.svg" height="50" width="50" >','<img src="assets/right.svg" height="50" width="50" >'],
 			    dots: false,
 			    stagePadding: 30,
 			    responsive:{
-					768: { items: 1 },
+					768: { items: 2 },
 					1200: { stagePadding: 200 }
 				},
 			});

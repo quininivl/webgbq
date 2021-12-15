@@ -150,6 +150,7 @@ body {
 	line-height: 1.5;
 	color: #555;
 	font-family: 'Lato', sans-serif;
+	
 }
 
 a {
@@ -161,7 +162,9 @@ a:hover { color: #222; }
 
 a img { border: none; }
 
-img { max-width: 100%; }
+img { 
+	/* max-width: 100%; */
+}
 
 iframe {
 	width: 100%;
@@ -177,7 +180,7 @@ iframe {
 
 h1,
 h2,
-h3,
+h3
 h4,
 h5,
 h6 {
@@ -398,9 +401,9 @@ span.middot {
 
 .font-body { font-family: 'Lato', sans-serif; }
 
-.font-primary { font-family: 'Poppins', sans-serif; }
+.font-primary {  font-family: 'Lato', sans-serif; }
 
-.font-secondary { font-family: 'PT Serif', serif; }
+.font-secondary {  font-family: 'Lato', sans-serif; }
 
 .font-weight-extralight {
 	font-weight: 100 !important;
@@ -2998,9 +3001,11 @@ html[xmlns] .slider-wrap {
 	#logo img {
 		-webkit-transition: height .4s ease, padding .4s ease, margin .4s ease, opacity .3s ease;
 		transition: height .4s ease, padding .4s ease, margin .4s ease, opacity .3s ease;
+		
 	}
 
-	#logo img { max-height: 100%; }
+	#logo img { max-height: 100%;
+		
 
 	.sub-menu-container,
 	.mega-menu-content {
@@ -3138,7 +3143,7 @@ html[xmlns] .slider-wrap {
 }
 
 .header-size-md #header-wrap #logo img {
-	height: 80px;
+	height: 60px;
 }
 
 .header-size-lg #header-wrap #logo img {
@@ -3154,6 +3159,7 @@ html[xmlns] .slider-wrap {
 
 @media (min-width: 992px) {
 
+	
 	.full-header #logo {
 		padding-right: 30px;
 		border-right: 1px solid #EEE;
@@ -6349,7 +6355,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 
 #content {
 	position: relative;
-	background-color: #FFF;
+	background-color:transparent;
 }
 
 #content p { line-height: 1.8; }
@@ -9227,13 +9233,17 @@ body:not(.device-touch) .button.button-full strong {
 
 
 .feature-box {
+	text-align: center;
 	position: relative;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	margin-left: -0.75rem;
-	margin-right: -0.75rem;
+	margin-left: -5rem;
+	margin-right: -5rem;
+}
+.bordered-box{
+	border: 2px solid white;
 }
 
 .feature-box:first-child { margin-top: 0; }
@@ -9252,6 +9262,7 @@ body:not(.device-touch) .button.button-full strong {
 	width: 100%;
 	height: 100%;
 	color: #FFF;
+	
 }
 
 .fbox-icon i,
@@ -9283,13 +9294,13 @@ body:not(.device-touch) .button.button-full strong {
 	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 0;
-	color: #333;
+	color: white;
 }
 
 .fbox-content p {
 	margin-top: 0.5rem;
 	margin-bottom: 0px;
-	color: #999;
+	color: white;
 }
 
 .fbox-content .before-heading {
@@ -9542,9 +9553,8 @@ body:not(.device-touch) .button.button-full strong {
 
 .fbox-content h3 span.subtitle {
 	display: block;
-	margin-top: 5px;
-	color: #444;
-	font-weight: 300;
+	margin: 20px 40px 0px 40px;	
+	color: white;
 	text-transform: none;
 }
 
@@ -9565,6 +9575,8 @@ body:not(.device-touch) .button.button-full strong {
 .fbox-center.fbox-italic p {
 	font-style: italic;
 	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+
 }
 
 
@@ -9722,7 +9734,6 @@ body:not(.device-touch) .button.button-full strong {
 /* Media Featured Box
 -----------------------------------------------------------------*/
 
-
 .media-box {
 	padding: 0;
 	margin-left: 0;
@@ -9786,7 +9797,6 @@ body:not(.device-touch) .button.button-full strong {
     border: 2px solid white;
     box-shadow: 4px 4px 12px #00000045;
 }
-
 /* ----------------------------------------------------------------
 	Flipbox
 -----------------------------------------------------------------*/
@@ -12956,9 +12966,9 @@ h3.titular-title { font-size: 2rem; }
 
 .heading-block h2 { font-size: 30px; }
 
-.heading-block h3 { font-size: 1.75rem;
+.heading-block h3 { font-size: 64px; 
 	font-family: 'Lato', sans-serif;
-color: white; }
+}
 
 .heading-block h4 {
 	font-size: 1.25rem;
@@ -12969,7 +12979,7 @@ color: white; }
 	display: block;
 	margin-top: 10px;
 	font-weight: 300;
-	color: #777;
+	color: white;
 }
 
 .heading-block .before-heading { margin-bottom: 7px; }
