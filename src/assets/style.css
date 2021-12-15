@@ -9234,6 +9234,7 @@ body:not(.device-touch) .button.button-full strong {
 	flex-wrap: wrap;
 	margin-left: -0.75rem;
 	margin-right: -0.75rem;
+	
 }
 
 .feature-box:first-child { margin-top: 0; }
