@@ -17,7 +17,7 @@ import { Content1Component } from './shared/content1/content1.component';
 import { RouterModule, ROUTES, Routes } from '@angular/router';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
-
+import { RecaptchaModule, RecaptchaFormsModule } from 'ng-recaptcha';
 
 @NgModule({
   declarations: [
@@ -39,7 +39,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     RouterModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RecaptchaModule, 
+    RecaptchaFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

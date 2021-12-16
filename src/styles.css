@@ -643,3 +643,15 @@ align-items: column !important;
   }
 
 }
+
+.casos-img{
+    border-top: 2px solid white !important; 
+    border-left: 2px solid white !important; 
+    border-bottom: 2px solid white !important;
+    border-radius: 20px 0px 0px 20px !important;
+}
+
+.casos-img-mobile{
+    border: 1px solid white !important; 
+    border-radius: 20px 20px 20px 20px;
+}
